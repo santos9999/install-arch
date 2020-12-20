@@ -1,2 +1,2 @@
 # install-arch
-scritp for install arch linux
+script for install arch linux
