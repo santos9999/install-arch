@@ -209,9 +209,9 @@ clear
 
 
 #USUARIO Y ADMIN
-rootpasswd=archsanters9999
+rootpasswd=?
 user=santos
-userpasswd=archsanters9999
+userpasswd=?
 
 arch-chroot /mnt /bin/bash -c "(echo $rootpasswd ; echo $rootpasswd) | passwd root"
 arch-chroot /mnt /bin/bash -c "useradd -m -g users -s /bin/bash $user"
